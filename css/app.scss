@@ -1,0 +1,94 @@
+
+
+
+$primary: #072753;
+$secondary : #7E76F9;
+$dark: #42495B;
+$success : #4ABB4A;
+$danger : #FC6681;
+$warning : #FF9C00;
+$zindex-dropdown:1000;
+
+
+.Home-row{
+        
+    background-image: url('../Images/Path\ 1.svg');
+    height: 550px;
+        
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    background-color: #ff9c001f;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.Services-row{
+    background-image: url('../Images/BG.svg');
+    
+}
+
+.icon-arrow{
+    border: 3px solid $primary;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px; 
+   text-align: center;
+    padding: 15px;
+    
+   
+}
+
+.icon-font{
+    border: 2px solid $primary;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px; 
+   text-align: center;
+    padding: 15px;
+}
+
+.about-row{
+    background-image: url('../Images/1135.svg');
+    height: 500px;
+}
+
+.Review-row{
+    background-image: url('../Images/Mask\ Group\ 1.svg');
+    height: 1000px;
+}
+
+.about-container{
+    background: #011021;
+}
+
+.review-cn{
+    background: #1b498acc;
+}
+
+.one{
+    
+    position: absolute;
+    left: 80px;
+
+}
+
+.two{
+    left: 45px;
+    position: absolute;
+    top: 15px;
+}
+
+.three{
+    position: absolute;
+    top: 30px;
+}
+
+@import"../node_modules/bootstrap/scss/bootstrap.scss"
